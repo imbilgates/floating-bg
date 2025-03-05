@@ -13,13 +13,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0",
-    "framer-motion": "^12.0.0"
+    "framer-motion": "^12.0.0",
+    "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
@@ -37,9 +38,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/floating-bg.git"
+    "url": "https://github.com/imbilgates/floating-bg"
   },
-  "keywords": ["react", "floating-background", "framer-motion", "animation"],
-  "author": "Your Name",
+  "bugs": {
+    "url": "https://github.com/imbilgates/floating-bg/issues"
+  },
+  "homepage": "https://github.com/imbilgates/floating-bg#readme",
+  "keywords": [
+    "react",
+    "floating-background",
+    "framer-motion",
+    "animation",
+    "ui",
+    "tailwindcss"
+  ],
+  "author": "Bilgates",
   "license": "MIT"
 }

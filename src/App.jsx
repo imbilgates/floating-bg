@@ -3,10 +3,8 @@ import FloatingIcons from './FloatingIcons'
 
 function App() {
   return (
-    <>
-      <FloatingIcons>
-      </FloatingIcons>
-    </>
+    <FloatingIcons>
+    </FloatingIcons>
   )
 }
 
